@@ -2,9 +2,8 @@
 
 export(coords_to_km)
 export(corr_aniso)
-export(corr_iso)
-export(covar_aniso)
-export(covar_iso)
+export(corr_iso_gaus)
+export(covar_iso_gaus)
 export(deg_to_rad)
 export(f_test)
 export(ilogit)

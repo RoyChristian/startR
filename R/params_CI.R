@@ -1,9 +1,9 @@
-#' Estimate the mean and confidence intervals at a given probability for for Bayesian parameters estimates
+#' Function to estimate credible intervals
 #'
-#'@description
+#' @description Estimate the mean and confidence intervals at a given probability for for Bayesian parameters estimates
 #'
 #' @param x vector holding the parameter draw from a MCMC of HMCMC sampler
-#' @param prob quantile for the Creidble interval. Function only support 95% or 90%
+#' @param prob quantile for the Creidble interval. Function only support 90 or 95 percent intervals.
 #'
 #' @return a vector holding, the mean, the lower credible intervals and the upper credible intervals
 #' @export

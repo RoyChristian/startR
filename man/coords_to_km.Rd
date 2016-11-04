@@ -2,7 +2,7 @@
 % Please edit documentation in R/coords_to_km.R
 \name{coords_to_km}
 \alias{coords_to_km}
-\title{Title}
+\title{Geographic coordinates to kilometers coordinates}
 \usage{
 coords_to_km(lon, lat, lon0, lat0)
 }
@@ -19,7 +19,7 @@ coords_to_km(lon, lat, lon0, lat0)
 Return a data frame holding the new coordinates
 }
 \description{
-Transform geographic coordinates into a distance based coordinates
+Transform geographic coordinates into a distance based coordinates. The function is based on the Haversine formula.
 }
 \examples{
 deg.grid <- expand.grid(x=seq(40,50,by=2.5), y=seq(60,70,by=2.5))

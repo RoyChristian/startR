@@ -1,3 +1,12 @@
+#' Title
+#'
+#' @param observed
+#' @param predicted
+#'
+#' @return
+#' @export
+#'
+#' @examples
 plot_fit <- function(observed=output$fit, predicted=output$fit){
 
 

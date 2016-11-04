@@ -2,20 +2,20 @@
 % Please edit documentation in R/params_CI.R
 \name{paramsCI}
 \alias{paramsCI}
-\title{Estimate the mean and confidence intervals at a given probability for for Bayesian parameters estimates}
+\title{Function to estimate credible intervals}
 \usage{
 paramsCI(x, prob = 0.95)
 }
 \arguments{
 \item{x}{vector holding the parameter draw from a MCMC of HMCMC sampler}
 
-\item{prob}{quantile for the Creidble interval. Function only support 95% or 90%}
+\item{prob}{quantile for the Creidble interval. Function only support 90 or 95 percent intervals.}
 }
 \value{
 a vector holding, the mean, the lower credible intervals and the upper credible intervals
 }
 \description{
-
+Estimate the mean and confidence intervals at a given probability for for Bayesian parameters estimates
 }
 \examples{
 foo <- rnorm(1e4, 0.653, 0.192)

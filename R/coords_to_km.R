@@ -1,6 +1,6 @@
-#' Title
+#' Geographic coordinates to kilometers coordinates
 #'
-#' @description Transform geographic coordinates into a distance based coordinates
+#' @description Transform geographic coordinates into a distance based coordinates. The function is based on the Haversine formula.
 #'
 #' @param lon longitude vector in degrees
 #' @param lat latitude vector in degrees
