@@ -1,4 +1,21 @@
-coords_to_km <- function (lon, lat, lon0 = sum(range(lon))/2, lat0 = sum(range(lat))/2)
+#' Title
+#'
+#' @description Transform geographic coordinates into a distance based coordinates
+#'
+#' @param lon longitude vector in degrees
+#' @param lat latitude vector in degrees
+#' @param lon0 longitude of the centroid of the survey area
+#' @param lat0 latittude of the centroid of the survey area
+#'
+#' @return Return a data frame holding the new coordinates
+#'
+#' @examples
+#' deg.grid <- expand.grid(x=seq(40,50,by=2.5), y=seq(60,70,by=2.5))
+#' km_.grid <- coords_to_km(lon=deg.grid$x, lat=deg.grid$y, lon0=mean(deg.grid$x), lat0=mean(deg.grid$y))
+#' plot(km.grid)
+#'#END
+#' @export
+coords_to_km <- function (lon, lat, lon0, lat0)
 {
   R <- 6371
   deg2rad = pi/180
@@ -11,5 +28,5 @@ coords_to_km <- function (lon, lat, lon0 = sum(range(lon))/2, lat0 = sum(range(l
                                       cos(rlat0) * cos(rlat)) * R
   km.e <- sign(rlon - rlon0) * acos(sin(rlat) * sin(rlat) +
                                       cos(rlat) * cos(rlat) * cos(delrlon)) * R
-  return(list(km.e = km.e, km.n = km.n))
+  return(data.frame(km.e = km.e, km.n = km.n))
 }
