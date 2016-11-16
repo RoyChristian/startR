@@ -2,7 +2,7 @@ Package: startR
 Title: Homebrewed package holding my most useful functions
 Version: 0.0.1
 Authors@R: person("Christian", "Roy", email = "christian.roy79@gmail.com", role = c("aut", "cre"))
-Description: Collection of functions that use regularly in my different projects
+Description: Collection of functions that I use regularly in my different projects
 Depends:
     R (>= 3.3.1),ggplot2
 License: GPL-3.0
