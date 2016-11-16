@@ -1,6 +1,6 @@
 #' Standard error
 #'
-#' @param x vector containing repeated measurement
+#' @param a numeric vector or an R object which is coercible to one by as.double(x)
 #'
 #' @return a real number representing the standard error
 #' @export

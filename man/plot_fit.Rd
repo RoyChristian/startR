@@ -2,14 +2,19 @@
 % Please edit documentation in R/plot_fit.R
 \name{plot_fit}
 \alias{plot_fit}
-\title{Title}
+\title{Model fit figure}
 \usage{
 plot_fit(observed = output$fit, predicted = output$fit)
 }
 \arguments{
-\item{predicted}{}
+\item{observed}{vector holding the discrenpancy measure for the observed data}
+
+\item{predicted}{vector holding the discrenpancy measure for the predicted data}
+}
+\value{
+A ggplot2 figure with the Bayesian P-value
 }
 \description{
-Title
+Model fit figure
 }
 

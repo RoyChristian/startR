@@ -1,9 +1,9 @@
-#' Title
+#' Model fit figure
 #'
-#' @param observed
-#' @param predicted
+#' @param observed vector holding the discrenpancy measure for the observed data
+#' @param predicted vector holding the discrenpancy measure for the predicted data
 #'
-#' @return
+#' @return A ggplot2 figure with the Bayesian P-value
 #' @export
 #'
 #' @examples

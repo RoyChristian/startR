@@ -1,6 +1,6 @@
 Package: startR
 Title: Homebrewed package holding my most useful functions
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Christian", "Roy", email = "christian.roy79@gmail.com", role = c("aut", "cre"))
 Description: Collection of functions that use regularly in my different projects
 Depends:
