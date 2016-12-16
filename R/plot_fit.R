@@ -7,16 +7,19 @@
 #' @export
 #'
 #' @examples
-plot_fit <- function(observed=output$fit, predicted=output$fit){
+plot_fit <- function(observed=output$fit, predicted=output$new_fit){
 
 
   fit.df <- data.frame(obs=observed, pred=predicted)
 
+  axis.range <- range(c(fit.df$obs, fit.df$pred))
+
+
   fit.ggplot <- ggplot(data=fit.df, aes(x=obs,y=pred)) +
     geom_point(color="grey70",alpha=0.75) +
     geom_abline(intercept = 0, slope= 1, colour="red", linetype=2) +
-    scale_x_continuous(name="Discrenpancy measure for observed data set") +
-    scale_y_continuous(name="Discrenpancy measure for predicted data set") +
+    scale_x_continuous(name="Discrenpancy measure for observed data set", limits =axis.range) +
+    scale_y_continuous(name="Discrenpancy measure for predicted data set", limits =axis.range) +
     theme(panel.background = element_rect(fill="white"),
           axis.text.x = element_text (size = 8, angle=0,vjust = 0, hjust=0),
           axis.text.y = element_text (size = 8, hjust = 0),

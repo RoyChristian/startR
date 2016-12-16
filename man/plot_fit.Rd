@@ -4,7 +4,7 @@
 \alias{plot_fit}
 \title{Model fit figure}
 \usage{
-plot_fit(observed = output$fit, predicted = output$fit)
+plot_fit(observed = output$fit, predicted = output$new_fit)
 }
 \arguments{
 \item{observed}{vector holding the discrenpancy measure for the observed data}
