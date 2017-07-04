@@ -20,4 +20,3 @@ a Gaussian isotropic correlation matrix between points.
 \description{
 Calulate a Gaussian correlation functions based on a vector of coordinates.Remember that the points must be projected if you want a correaltion matrix that make sense.
 }
-

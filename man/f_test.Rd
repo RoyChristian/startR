@@ -21,4 +21,3 @@ f_test(rnorm(1e5,mean=-3,sd=2)) #high confidence
 f_test(rnorm(1e5,mean=-3,sd=0.5)) #Certain
 #END
 }
-

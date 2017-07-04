@@ -1,6 +1,6 @@
 Package: startR
 Title: Homebrewed package holding my most useful functions
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Christian", "Roy", email = "christian.roy79@gmail.com", role = c("aut", "cre"))
 Description: Collection of functions that I use regularly in my different projects
 Depends:
@@ -8,4 +8,4 @@ Depends:
 License: GPL-3.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

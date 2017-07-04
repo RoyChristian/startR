@@ -21,4 +21,3 @@ mean(x)
 std_err(x)
 #End
 }
-

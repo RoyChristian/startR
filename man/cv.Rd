@@ -22,4 +22,3 @@ foo <- rnorm(100,10,10)
 sd(foo)/mean(foo)
 cv(foo)
 }
-

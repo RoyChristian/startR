@@ -20,4 +20,3 @@ logit(0.90)
 ilogit(2.20)
 #END
 }
-

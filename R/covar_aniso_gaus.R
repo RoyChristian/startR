@@ -9,8 +9,6 @@
 #'
 #' @return A Gaussian anisotropic covariance matrix between points.
 #' @export
-#'
-#' @examples
 covar_aniso <- function(sigma=1.25, eta= 0.001, phi1=5,phi2=2.5, theta=0, coords=expand.grid(x=seq(-10,10,by=2), y=seq(-10,10, by=2))){
   inv.phi.mat  <- matrix(c(1/(phi1^2),0,0,1/(phi2^2)), 2,2)
   theta.mat <- matrix(c(cos(theta),sin(theta),-sin(theta),cos(theta)), 2,2)

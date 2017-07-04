@@ -17,4 +17,3 @@ A ggplot2 figure with the Bayesian P-value
 \description{
 Model fit figure
 }
-

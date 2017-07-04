@@ -19,4 +19,3 @@ Transform radian angle to degree angle
  rad_to_deg(2*pi)
 #END
 }
-

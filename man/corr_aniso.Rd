@@ -24,4 +24,3 @@ A Gaussian anisotropic correlation matrix between points.
 \description{
 Gaussian anisotropic correlation function
 }
-

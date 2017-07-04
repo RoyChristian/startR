@@ -19,4 +19,3 @@ Transform degree angle to radian angle
  deg_to_rad(90)
 #END
 }
-

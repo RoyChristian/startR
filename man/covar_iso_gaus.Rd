@@ -22,4 +22,3 @@ A Gaussian isotropic covariance matrix between points.
 \description{
 Calulate a Gaussian covariance functions based on a vector of coordinates.Remember that the points must be projected if you want a correaltion matrix that make sense.
 }
-

@@ -8,8 +8,6 @@
 #' @param coords matrix holding the coordinates of the points.
 #' @return a Gaussian isotropic correlation matrix between points.
 #' @export
-#'
-#' @examples
 corr_iso_gaus <- function(eta=0.01,phi=5, coords=expand.grid(x=seq(-10,10,by=2), y=seq(-10,10, by=2))){
 
   dist.mat <- as.matrix(dist(coords))

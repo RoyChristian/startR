@@ -27,4 +27,3 @@ A Gaussian anisotropic covariance matrix between points.
 \description{
 Gaussian anisotropic covariance function
 }
-

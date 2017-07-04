@@ -27,4 +27,3 @@ km_.grid <- coords_to_km(lon=deg.grid$x, lat=deg.grid$y, lon0=mean(deg.grid$x), 
 plot(km.grid)
 #END
 }
-
