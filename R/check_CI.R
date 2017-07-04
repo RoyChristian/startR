@@ -23,6 +23,6 @@ check_CI <- function(x, prob=0.95){
 
   qt.x= params_CI(x,prob)
   test.int = check_interval(0,qt.x[2],qt.x[3])
-  out = ifelse(test.int,"non-signifcant","signifcant")
+  out = unname(ifelse(test.int,"non-signifcant","signifcant"))
   return(out)
 }
