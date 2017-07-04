@@ -22,7 +22,7 @@ check_CI <- function(x, prob=0.95){
     stop("Credible interval must be 90 or 95%")
 
   qt.x= params_CI(x,prob)
-  test.int = check_intervall(0,qt.x[2],qt.x[3])
+  test.int = check_interval(0,qt.x[2],qt.x[3])
   out = ifelse(test.int,"non-signifcant","signifcant")
   return(out)
 }
